@@ -1,0 +1,38 @@
+{
+  "name": "line-bot-sdk-nodejs",
+  "version": "0.0.1",
+  "description": "Node.js SDK for LINE Messaging API",
+  "engines": {
+    "node": ">=4"
+  },
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "lab test/* -r",
+    "lint": "standard --fix",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "node",
+    "line",
+    "sdk"
+  ],
+  "dependencies": {
+    "debug": "^2.6.0",
+    "superagent": "^3.3.1",
+    "superagent-promise": "^1.1.0"
+  },
+  "devDependencies": {
+    "code": "^4.0.0",
+    "coveralls": "^2.11.15",
+    "lab": "^11.2.2",
+    "proxyquire": "^1.7.10",
+    "should": "^11.1.2",
+    "sinon": "^1.17.7",
+    "standard": "^8.6.0"
+  },
+  "license": "Apache-2.0"
+}
