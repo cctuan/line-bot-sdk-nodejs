@@ -7,8 +7,7 @@ Node.js SDK for LINE Messaging API
 ## Project status
 
 :construction: ***It's under construction.***
-
-About things to be done for the first release, please refer to [the milestone](https://git.linecorp.com/Front-End/line-bot-sdk-nodejs/milestones/The%20first%20release).
+https://medium.com/@georgetuan/writing-a-line-nodejs-sdk-1bf60f5df3f3#.2e3ofuj72
 
 ## LINE Messaging API Reference
 
